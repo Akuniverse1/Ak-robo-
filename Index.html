@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AK Robo - Complete</title>
+    <!-- CSS فائل لنک کی گئی -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- نیویگیشن بار -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#database">Database</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#settings">Settings</a></li>
+        </ul>
+    </nav>
+
+    <!-- مین سیکشن -->
+    <header id="home">
+        <h1>Welcome to AK Robo</h1>
+        <p>Your Gateway to Robotics</p>
+    </header>
+
+    <main>
+        <!-- ایباؤٹ سیکشن -->
+        <section id="about">
+            <h2>About AK Robo</h2>
+            <p>We provide the latest updates and resources on robotics.</p>
+        </section>
+
+        <!-- ڈیٹا بیس سیکشن -->
+        <section id="database">
+            <h2>Robotics Database</h2>
+            <p>Explore our extensive database of robotics knowledge.</p>
+        </section>
+
+        <!-- پروفائل سیکشن -->
+        <section id="profile">
+            <h2>Your Profile</h2>
+            <form>
+                <label for="profile-pic">Upload Your Photo:</label>
+                <input type="file" id="profile-pic" name="profile-pic">
+                <br><br>
+                <label for="username">Name:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your name">
+                <br><br>
+                <button type="button" id="save-btn">Save</button>
+            </form>
+        </section>
+
+        <!-- سیٹنگ سیکشن -->
+        <section id="settings">
+            <h2>Settings</h2>
+            <label for="theme">Choose Theme:</label>
+            <select id="theme">
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+            </select>
+        </section>
+    </main>
+
+    <!-- جاوا اسکرپٹ فائل لنک کی گئی -->
+    <script src="script.js"></script>
+</body>
+</html>

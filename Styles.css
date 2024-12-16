@@ -1,0 +1,57 @@
+/* بیسک باڈی اسٹائل */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* نیویگیشن بار اسٹائل */
+nav ul {
+    display: flex;
+    list-style: none;
+    background-color: #007BFF;
+    padding: 10px;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ہیڈر اسٹائل */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #007BFF;
+    color: white;
+}
+
+/* مین کنٹینٹ اسٹائل */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+/* ڈارک تھیم */
+body.dark {
+    background-color: #333;
+    color: #f4f4f9;
+}
+
+body.dark header {
+    background-color: #555;
+}
